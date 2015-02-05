@@ -1,0 +1,18 @@
+[
+{
+  "modid": "GargateMod",
+  "name": "The Gargate Mod",
+  "description": "Stone by day, warriors by night. Gain the loyalties of these fearsome and capable warriors, who will protect your base AND get rid of those annoying spiders on your roof!.",
+  "version": "1.0",
+  "credits": "Created by Mattah12, thanks to Pahimar for the tutorials",
+  "logoFile": "",
+  "mcversion": "1.7.0",
+  "url": "",
+  "updateUrl": "",
+  "authors": [ "Mattah12" ],
+  "parent":"",
+  "screenshots": [],
+  "dependencies": [
+	 "mod_MinecraftForge"
+]
+}

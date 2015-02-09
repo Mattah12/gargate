@@ -1,2 +1,7 @@
 item.gargatemod:phoenixGate.name=The Phoenix Gate
+item.gargatemod:grimArca.name=The Grimorum Arcanorum
+item.gargatemod:eyeOdin.name=The Eye of Odin
+
 tile.gargatemod:clawedStone.name=Clawed Stone
+
+itemGroup.gargatemod=Gargate Mod

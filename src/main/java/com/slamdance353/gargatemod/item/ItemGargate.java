@@ -1,5 +1,6 @@
 package com.slamdance353.gargatemod.item;
 
+import com.slamdance353.gargatemod.creativetab.CreativeTabGargateMod;
 import com.slamdance353.gargatemod.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -12,6 +13,7 @@ public class ItemGargate extends Item
     public ItemGargate ()
     {
         super ();
+        this.setCreativeTab(CreativeTabGargateMod.GARGATE_TAB);
     }
 
     @Override

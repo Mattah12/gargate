@@ -1,5 +1,8 @@
 package com.slamdance353.gargatemod.block;
 
+import com.slamdance353.gargatemod.creativetab.CreativeTabGargateMod;
+import com.slamdance353.gargatemod.reference.Reference;
+
 public class BlockClawedStone extends BlockGargate
 
 {
@@ -7,6 +10,6 @@ public class BlockClawedStone extends BlockGargate
     {
         super();
         this.setBlockName("clawedStone");
-        this.setBlockTextureName("clawedStone");
+
     }
 }

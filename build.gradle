@@ -19,10 +19,10 @@ apply plugin: 'forge'
 
 version = "1.7.10-1.0"
 group= "com.slamdance353.gargatemod" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "GargateMod"
+archivesBaseName = "gargatemod"
 
 minecraft {
-    version = "1.7.10-10.13.0.1170"
+    version = "1.7.10-10.13.0.1179"
     assetDir = "eclipse/assets"
 }
 

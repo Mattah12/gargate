@@ -1,6 +1,7 @@
 package com.slamdance353.gargatemod.block;
 
 
+import com.slamdance353.gargatemod.creativetab.CreativeTabGargateMod;
 import com.slamdance353.gargatemod.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -14,6 +15,7 @@ public class BlockGargate extends Block
     public BlockGargate (Material material)
     {
         super(material);
+        this.setCreativeTab(CreativeTabGargateMod.GARGATE_TAB);
     }
 
     public BlockGargate()
@@ -24,7 +26,7 @@ public class BlockGargate extends Block
     @Override
     public String getUnlocalizedName()
     {
-        return String.format("tile.%s%s", Reference.MOD_ID.toLowerCase() + ";", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
+        return String.format("tile.%s%s", Reference.MOD_ID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
         //tile.modid:blockname.name
     }
 

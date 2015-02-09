@@ -13,6 +13,6 @@ public class ModItems
 
     public static void init ()
     {
-        GameRegistry.registerItem(phoenixGate, "The Phoenix Gate");
+        GameRegistry.registerItem(phoenixGate, "phoenixGate");
     }
 }
